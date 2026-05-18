@@ -14,7 +14,7 @@ depends: [
   "ocaml" {>= "5.1.0"}
   "dune" {>= "3.17.0"}
 ]
-available: arch != "arm32" & arch != "x86_32"
+available: arch != "x86_32"
 synopsis: "Simple starter project for hardcaml development"
 description: "
 A simple starter project including a hardcaml design, testbench, and RTL generation.
